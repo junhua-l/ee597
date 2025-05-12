@@ -2,7 +2,9 @@
 ### Dynamic Spectrum Access Using DRL
 
 EE597 Final Project
+
 Dynamic Spectrum Access Using Deep Reinforcement Learning Networks Proposal
+
 Zhaokun Jian, Junhua Liu
 
 Dynamic spectrum access (DSA) aims to alleviate the spectrum scarcity by allowing unlicensed devices to exploit the licensed channels. Realising DSA in random multichannel access networks is challenging because the users receive only binary acknowledgements, have no knowledge of other users’ actions, and must operate without control signalling. Traditional protocols (such as Slotted Aloha) are inefficient due to collisions and idle time slots, especially in distributed and large-scale environments. In this paper, we aim to find a multi-user strategy to maximize the network utility without online coordination. We treat multichannel DSA as a partially observable stochastic game and propose a multi-user deep reinforcement-learning (DRL) solution that is both scalable and fully distributed. Specifically, each user executes an identical Deep Q-Network (DQN) augmented with a Long Short-Term Memory (LSTM) layer to learn channel access policies, enabling it to infer latent network dynamics from short acknowledgement histories.  All neural parameters are trained offline at a central server with double Q-learning. The simulations highlight the effectiveness of proposed DRL framework in achieving adaptive and distributed spectrum management without explicit adaptation and deploying learning-based spectrum sharing.
@@ -13,8 +15,8 @@ Dynamic spectrum access (DSA) aims to alleviate the spectrum scarcity by allowin
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/shkrwnd/Deep-Reinforcement-Learning-for-Dynamic-Spectrum-Access.git
-   cd Deep-Reinforcement-Learning-for-Dynamic-Spectrum-Access
+   git clone https://github.com/junhua-l/ee597.git
+   cd ee597
 
 1. Create a virtual environment (optional but recommended):
 
